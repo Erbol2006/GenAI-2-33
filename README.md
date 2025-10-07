@@ -22,10 +22,9 @@ Python script that utilizes the DeepSeek-R1 language model to generate personali
 - **Numbering Verification**: Ensures proper sequential numbering in responses
 - **Performance Testing**: Includes comprehensive test functions
 
-## Installation
 
 ## bash
-## pip install transformers accelerate torch unsloth
+pip install transformers accelerate torch unsloth
 
 
 ## Usage
