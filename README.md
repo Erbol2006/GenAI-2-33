@@ -2,7 +2,6 @@
 В данном репозитории находится решение для предмета "Введение в проектную деятельность". 2 блока задач - GenAI-2-33
 
 
-```markdown
 # DeepSeek-R1 Advice Generator
 
 Python script that utilizes the DeepSeek-R1 language model to generate personalized advice and recommendations in Russian.
@@ -25,49 +24,40 @@ Python script that utilizes the DeepSeek-R1 language model to generate personali
 
 ## Installation
 
-```bash
-pip install transformers accelerate torch unsloth
-```
+## bash
+## pip install transformers accelerate torch unsloth
+
 
 ## Usage
 
 ### Basic advice generation:
-```python
+
 advice = generate_advice("Дай 3 совета по учебе")
 print(advice)
-```
+
 
 ### Prioritized advice generation:
-```python
+
 prioritized_advice = generate_prioritized_advice("Дай 4 совета по программированию, пронумеруй по важности")
 print(prioritized_advice)
-```
+
 
 ### Run tests:
-```python
+
 test_basic_advice()
 test_prioritized_advice()
-```
+
 
 ## Model Information
 
-- **Model**: DeepSeek-R1-Qwen3-8B
-- **Architecture**: Qwen-based causal language model
-- **Context Window**: 2048 tokens
-- **Precision**: Float16 for efficiency
-
-## Output Format
-
-The script generates properly numbered lists in Russian:
-```
-1. Первый самый важный совет
-2. Второй по важности совет
-3. Третий совет
-```
+- Model: DeepSeek-R1-Qwen3-8B
+- Architecture: Qwen-based causal language model
+- Context Window: 2048 tokens
+- Precision: Float16 for efficiency
 
 ## Requirements
 
 - Python 3.8+
 - CUDA-capable GPU (recommended)
 - 8GB+ VRAM for optimal performance
-```
+
